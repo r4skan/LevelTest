@@ -1,0 +1,23 @@
+﻿  LinkedList.cpp
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,6): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(16): message : 컴파일되는 클래스 템플릿 인스턴스화 'LinkedList<T>'에 대한 참조를 확인하세요.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,1): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,6): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,1): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(11,3): error C3861: 'tailNode': 식별자를 찾을 수 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(12,3): error C3861: 'headNode': 식별자를 찾을 수 없습니다.
+  소스.cpp
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,6): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(16): message : 컴파일되는 클래스 템플릿 인스턴스화 'LinkedList<T>'에 대한 참조를 확인하세요.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(5,1): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,6): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,1): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(6,1): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(11,3): error C3861: 'tailNode': 식별자를 찾을 수 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\LinkedList.h(12,3): error C3861: 'headNode': 식별자를 찾을 수 없습니다.
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\소스.cpp(15,9): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Users\KGA_8_PM\source\repos\ConsoleApplication2\LinkedList\소스.cpp(16,9): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+  코드를 생성하고 있습니다...
