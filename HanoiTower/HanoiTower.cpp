@@ -1,32 +1,38 @@
 #include <iostream>
-#include <vector>
-#include <queue>
 
 using namespace std;
 
-void Hanoi(int count, char start, char end, char via);
+int Hanoi(int count, char start, char end, char via);
 
 int main()
 {
-	const short diskCount = 3;
+    const short diskCount = 3;
 
-    Hanoi(diskCount, 'A', 'C', 'B');
+    int count = Hanoi(diskCount, 'A', 'C', 'B');
+
+    cout << count << "번 이동함" << endl;
 }
 
 void MoveDisk(int count, char start, char end);
 
-void Hanoi(int count, char start, char end, char via)
+int Hanoi(int count, char start, char end, char via)
 {
+    static int moveCount = 0;
+
     if (count == 1)
     {
+        moveCount++;
         MoveDisk(1, start, end);
     }
     else
     {
+        moveCount++;
         Hanoi(count - 1, start, via, end);
         MoveDisk(count, start, end);
         Hanoi(count - 1, via, end, start);
     }
+
+    return moveCount;
 }
 
 void MoveDisk(int count, char start, char end)
