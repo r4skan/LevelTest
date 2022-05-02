@@ -10,8 +10,8 @@ int main()
 
 	stlList.push_back(1);
 	stlList.push_front(2);
-	stlList.pop_back();
-	stlList.pop_front();
-	stlList.front();
-	stlList.back();
+
+	LinkedList<int> myList;
+
+	myList.push_back(10);
 }
